@@ -15,3 +15,4 @@ To make this music collaboration app, we'll use the following APIs:
   * WebAudio API for controlling audio clips
   
 When the record button is pressed, the info is stored locally into an array and published via PubNub. Subscribers to a channel will see the keypresses (messages), and those messages will be added to the song in realtime, as they're pressed. When finished recording, the entire array of keystrokes is saved to Parse, and songs and be retrieved and played back.
+
