@@ -2,7 +2,7 @@ Collaboration apps enable multiple users to interact with one another in realtim
 
 In this blog post, we'll show you how to build a collaboration app. Our demo application is a simple music recording app with realtime collaboration capabilities. Multiple users can create songs together, and each keystroke is reflected in realtime across all browsers.
 
-Want to see it in action? Checkout the (realtime music collaboration app demo here)[http://pubnub.github.io/CoBeats/], and get playing with a couple friends. Additionally, check out the entire project repository, including all the code, here.
+Want to see it in action? Checkout the [realtime music collaboration app demo here](http://pubnub.github.io/CoBeats/), and get playing with a couple friends. Additionally, check out the entire project repository, including all the code, here.
 
 This tutorial will focus on adding PubNub to make a music app collaborative; however, many of the practices we use here can be used to customize your own collaborative app use case, like a multi-user text editor or collaborative design app.
 
