@@ -512,7 +512,7 @@ var firstName = ["gifted", "grooving", "slow", "jiggy", "soulful", "swaggy", "pu
 var lastName = ["kazoo", "triangle", "forte", "sax", "flute", "banjo", "oboe", "piano", "drums"];
 
 UUID = makeName();
-var chan = "coBeats";
+var chan = "coBeats" + Math.floor(Math.random()*100);
 var userArray = [];
 
 function makeName(){
