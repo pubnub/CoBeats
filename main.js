@@ -560,7 +560,9 @@ function subscribeTo(chan){
 	        }
         },
         connect: function(m){
-          loadFromParse()
+          loadFromParse();
+          writeUsers();
+
         },
         presence: function(m){
 	      console.log(m);
